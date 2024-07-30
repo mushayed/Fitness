@@ -1,6 +1,9 @@
 /* inter font added */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
 .inter-myFont {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -13,3 +16,292 @@
     box-sizing: border-box;
 }
 
+/* header section starts here */
+header {
+    background-color: rgb(17, 17, 17);
+}
+
+#bar, .break {
+    display: none;
+}
+
+.banner {
+    padding-top: 3.4rem;
+    max-width: 86rem;
+    min-height: 40rem;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
+
+.banner nav {
+    max-width: 63rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner nav h2 {
+    color: rgb(230, 83, 60);
+    font-size: 2.1rem;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.navlinks {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    width: 27rem;
+    height: 2.76rem;
+}
+
+.navlinks ul {
+    display: flex;
+    align-items: center;
+    gap: 2.8rem;
+}
+
+#home {
+    width: 5.5rem;
+    height: 2.3rem;
+    border: 0px;
+    border-radius: 2.7rem;
+    background-color: rgb(230, 83, 60);
+    margin-top: 0.16rem;
+    margin-left: 0.16rem;
+}
+
+.navlinks ul li {
+    list-style: none;
+}
+
+.navlinks ul a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.08rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.banner-content {
+    margin: 0 auto;
+    max-width: 63rem;
+    min-height: 34.8rem;
+    display: flex;
+    padding-top: 1.9rem;
+}
+
+.banner-text {
+    width: 57%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.banner-text h1 {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+#shape {
+    font-family: "Dancing Script", cursive;
+    font-size: 6rem;
+    font-weight: 100;
+}
+
+.banner-text p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.96rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+}
+
+.banner-btn {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.banner-btn button {
+    width: 13.4rem;
+    height: 3.2rem;
+}
+
+#club {
+    border: 0px;
+    border-radius: 2.5rem;
+    background-color: rgb(230, 83, 60);
+}
+
+#download {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2.5rem;
+    background-color: rgb(17, 17, 17);
+}
+
+.banner-btn button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.08rem;
+    font-weight: 600;
+    line-height: 1.3rem;
+}
+
+.banner-image-card {
+    width: 43%;
+}
+
+.banner-image {
+    min-height: 34.8rem;
+    width: 20.9rem;
+    margin-left: 5.2rem;
+}
+
+.banner-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#workout {
+    width: 11.5rem;
+    height: 5.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 16rem;
+    right: 8rem;
+}
+
+#workout h3 {
+    color: rgb(255, 255, 255);
+    font-size: 2.4rem;
+    font-weight: 900;
+    line-height: 2.4rem;
+    letter-spacing: 0.06rem;
+}
+
+#workout p {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    letter-spacing: 0.06rem;
+}
+
+#tutorial {
+    width: 12.3rem;
+    height: 5.7rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.48rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 27rem;
+}
+
+#tutorial h4 {
+    color: rgb(250, 250, 249);
+    font-size: 1.4rem;
+    font-weight: 900;
+    line-height: 1.4rem;
+    letter-spacing: 0.01rem;
+}
+
+#tutorial p {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    letter-spacing: 0.03rem;
+}
+
+#circle {
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    background: rgb(230, 83, 60);
+}
+/* header section ends here */
+
+/* mobile responsive starts here */
+@media screen and (max-width: 576px) {
+/* header section starts here */
+.navlinks {
+    display: none;
+}
+
+#bar {
+    display: block;
+    color: white;
+}
+
+.break {
+    display: block;
+}
+
+#bar i {
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.banner nav {
+    align-items: center;
+    padding: 0 1.2rem;
+}
+
+.banner-content {
+    flex-direction: column;
+}
+
+.banner-text  {
+    width: 100%;
+    padding: 2rem 1.2rem 0;
+}
+
+.banner-text h1 {
+    font-size: 2.1rem;
+    line-height: 120%;
+}
+
+#shape {
+    font-size: 4rem;
+}
+
+.banner-image-card {
+    width: 100%;
+}
+
+.banner-image {
+    width: 21.1rem;
+    height: 35.2rem;
+    margin: 2.8rem auto;
+}
+
+#workout {
+    height: 4.4rem;
+    width: 8.7rem;
+    top: 36rem;
+    left: 14rem;
+}
+
+#tutorial {
+    height: 4.3rem;
+    width: 9.3rem;
+    top: 49rem;
+    left: 3rem;
+}
+/* header section ends here */
+}
+/* mobile responsive ends here */
