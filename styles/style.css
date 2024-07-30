@@ -17,10 +17,6 @@
 }
 
 /* header section starts here */
-header {
-    background-color: rgb(17, 17, 17);
-}
-
 #bar, .break {
     display: none;
 }
@@ -29,7 +25,7 @@ header {
     padding-top: 3.4rem;
     max-width: 86rem;
     min-height: 40rem;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient(0deg, rgb(17, 17, 17) -19.5%,rgba(16, 16, 16, 0.9) 100%);
 }
 
 .banner nav {
@@ -235,6 +231,82 @@ header {
 }
 /* header section ends here */
 
+/* main section starts here */
+main {
+    background-color: black;
+}
+/* habits section starts here  */
+.habits {
+    max-width: 62.6rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3.4rem;
+    padding-top: 6rem;
+}
+
+.habit-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.habits h2 {
+    color: rgb(255, 255, 255);
+    font-size: 2.8rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.habits p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    letter-spacing: 0.01rem;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.card {
+    width: 13.8rem;
+    height: 16.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card h5 {
+    color: rgb(255, 255, 255);
+    font-size: 1.08rem;
+    font-weight: 600;
+    line-height: 120%;
+    padding-top: 1.2rem;
+    padding-bottom: 0.3rem;
+}
+
+.card-image {
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    width: 10.8rem;
+    height: 10.8rem;
+    border-radius: 50%;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+/* habits section ends here  */
+
+/* main section ends here */
+
 /* mobile responsive starts here */
 @media screen and (max-width: 576px) {
 /* header section starts here */
@@ -303,5 +375,22 @@ header {
     left: 3rem;
 }
 /* header section ends here */
+
+/* main section starts here */
+/* habit section starts here */
+.cards {
+    flex-direction: column;
+    align-items: center;
+}
+
+.habit-content h2 {
+    font-size: 2rem;
+}
+
+.or {
+    display: none;
+}
+/* habit section ends here */
+/* main section ends here */
 }
 /* mobile responsive ends here */
