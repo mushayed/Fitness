@@ -123,7 +123,7 @@
     height: 3.2rem;
 }
 
-#club {
+.club {
     border: 0px;
     border-radius: 2.5rem;
     background-color: rgb(230, 83, 60);
@@ -305,6 +305,68 @@ main {
 }
 /* habits section ends here  */
 
+/* run an extra mile section starts here */
+.run {
+    max-width: 63.6rem;
+    border-radius: 1rem;
+    background-color: rgb(34, 34, 34);
+    margin: 6rem auto 0;
+    padding: 1.8rem 1.9rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.run-content h2{
+    color: rgb(255, 255, 255);
+    font-size: 2.8rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.run-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.run-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    letter-spacing: 0.01rem;
+}
+
+.run-content button {
+    width: 13.4rem;
+    height: 3.2rem;
+}
+
+.run-content button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.08rem;
+    font-weight: 600;
+    line-height: 1.3rem;
+}
+
+.run-image {
+    width: 21.9rem;
+    height: 18.7rem;
+    border-radius: 1rem;
+}
+
+.run-image img {
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+/* run an extra mile section ends here */
+
 /* main section ends here */
 
 /* mobile responsive starts here */
@@ -391,6 +453,39 @@ main {
     display: none;
 }
 /* habit section ends here */
+
+/* run an extra mile section starts here */
+.run {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 1.8rem;
+    padding: 2rem 2.2rem;
+}
+
+.run-content {
+    gap: 1.4rem;
+}
+
+.run-content h2 {
+    font-size: 1.9rem;
+}
+
+.run-content button {
+    width: 100%;
+}
+
+.run-content p {
+    line-height: 1.4rem;
+    letter-spacing: 0.08rem;
+}
+
+.run-image {
+    width: 100%;
+    height: 10.2rem;
+}
+/* run an extra mile section ends here */
 /* main section ends here */
 }
 /* mobile responsive ends here */
