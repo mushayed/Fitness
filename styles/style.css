@@ -960,7 +960,7 @@ footer {
 }
 
 .copyright hr {
-    width: 24rem;
+    max-width: 24rem;
     margin-top: 4.3rem;
 }
 
