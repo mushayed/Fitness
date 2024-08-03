@@ -507,6 +507,41 @@ main {
 }
 /* BMI section ends here */
 
+/* reviews section starts here */
+.reviews {
+    margin-top: 5.2rem;
+    max-width: 86.4rem;
+    min-height: 13rem; 
+    background: rgb(34, 34, 34);
+    display: flex;
+}
+
+.reviews-content {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews-content h2 {
+    color: rgb(255, 255, 255);
+    font-size: 2.8rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.reviews-content h4 {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    line-height: 1.4rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+/* reviews section ends here */
+
 /* team section starts here */
 .team {
     max-width: 86rem;
@@ -887,6 +922,22 @@ footer {
     padding-right: 2.5rem;
 }
 /* BMI section ends here */
+
+/* reviews section starts here */
+.reviews {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem 0;
+}
+
+.reviews-content {
+    width: 100%;
+}
+
+.reviews-content h2 {
+    font-size: 1.9rem;
+}
+/* reviews section ends here */
 
 /* team section starts here */
 .team-content {
