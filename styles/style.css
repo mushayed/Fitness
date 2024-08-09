@@ -505,6 +505,10 @@ main {
     text-align: left;
     padding-left: 1.2rem;
 }
+
+.input-form select {
+    border-right: 16px solid transparent;
+}
 /* BMI section ends here */
 
 /* reviews section starts here */
