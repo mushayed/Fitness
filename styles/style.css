@@ -25,7 +25,7 @@
     padding-top: 3.4rem;
     max-width: 86rem;
     min-height: 40rem;
-    background: linear-gradient(0deg, rgb(17, 17, 17) -19.5%,rgba(16, 16, 16, 0.9) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0% 70%, rgb(0, 0, 0) 95%);
 }
 
 .banner nav {
